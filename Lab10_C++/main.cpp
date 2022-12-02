@@ -3,6 +3,8 @@
 // Jonathan Valvano and Daniel Valvano
 // This is a starter project for the EE319K Lab 10 in C++
 // Frank Collebrusco Fall 2022
+// All of the provided starter project has been replaced by Frank C
+// But I'll leave these disclaimers just in case
 
 // Last Modified: 1/17/2020 
 // http://www.spaceinvaders.de/
