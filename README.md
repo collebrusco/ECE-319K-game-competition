@@ -1,4 +1,5 @@
 # ECE-319K-game-competition
+![Game PCB](/PCB.PNG)
 For Intro to Embedded Systems at the University of Texas at Austin, I created a handheld game with the help of my lab parter Jasmine Pok that won 2nd place in the in-class competition. The game runs on a PCB I designed on a 16-bit color 128x160 LCD. It has 6-bit sound and runs smoothly at 30Hz. The game is a UT-themed rougelike inspired dungeon crawler, where the player advances through 5 levels with increasing difficulty, unique and scaling enemies on each level, and a boss fight at the end in a quest to rescue Bevo, the UT longhorn. The player collects coins along the way which they can use for a variety of different upgrade options in preperation for the boss fight.
 ### /Lab10_C++
 Contains main file and other files closely related to this project specifically. All game engine objects & logic are defined directly in the main.cpp file, this was done for speed, rapid prototyping & changing, and experimentation, and to keep everything in-lined. I will break them into separate files should I re-use them.  
