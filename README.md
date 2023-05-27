@@ -1,6 +1,8 @@
 # ECE-319K-game-competition
-![Game PCB](/PCB.PNG)
-For Intro to Embedded Systems at the University of Texas at Austin, I created a handheld game with the help of my lab parter Jasmine Pok that won 2nd place in the in-class competition. The game runs on a PCB I designed on a 16-bit color 128x160 LCD. It has 6-bit sound and runs smoothly at 30Hz. The game is a UT-themed rougelike inspired dungeon crawler, where the player advances through 5 levels with increasing difficulty, unique and scaling enemies on each level, and a boss fight at the end in a quest to rescue Bevo, the UT longhorn. The player collects coins along the way which they can use for a variety of different upgrade options in preperation for the boss fight.
+![Game PCB](/PCB.PNG)    
+Handheld game built with a custom PCB running on a TM4C microcontroller (256kB flash and 32 kB ram). The system includes an LCD, DAC, joystick, slide-pot, buttons, & LEDs. The game is a simple overhead 'bullet hell' style game with 5 levels, various enemy types and a currency and upgrade system.  
+
+Created for Intro to Embedded Systems at UT Austin, this game won 2nd place in the in-class competition. The game runs on a custom PCB on a 16-bit color 128x160 LCD. It has 6-bit sound and runs smoothly at 30Hz. The game is a UT-themed rougelike inspired dungeon crawler, where the player advances through 5 levels with increasing difficulty, unique and scaling enemies on each level, and a boss fight at the end in a quest to rescue Bevo, the UT longhorn. The player collects coins along the way which they can use for a variety of different upgrade options in preperation for the boss fight.
 ### /Lab10_C++
 Contains main file and other files closely related to this project specifically. All game engine objects & logic are defined directly in the main.cpp file, this was done for speed, rapid prototyping & changing, and experimentation, and to keep everything in-lined. I will break them into separate files should I re-use them.  
 ### /fcpcb
