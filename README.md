@@ -1,10 +1,11 @@
 # ECE-319K-game-competition
 ![Game PCB](/PCB.PNG)    
-Handheld game built with a custom PCB running on a TM4C microcontroller (256kB flash and 32 kB ram). The system includes an LCD, DAC, joystick, slide-pot, buttons, & LEDs. The game is a simple overhead 'bullet hell' style game with 5 levels, various enemy types and a currency and upgrade system.  
+2nd place! 'Save Bevo' is a handheld game built with a custom PCB & TM4C microcontroller. The system includes an LCD, DAC, joystick, slide-pot, buttons, & LEDs. The game is a simple overhead 'bullet hell' style game with 5 levels, various enemy types and a currency and upgrade system.  
 
-Created for Intro to Embedded Systems at UT Austin, this game won 2nd place in the in-class competition. The game runs on a custom PCB on a 16-bit color 128x160 LCD. It has 6-bit sound and runs smoothly at 30Hz. The game is a UT-themed rougelike inspired dungeon crawler, where the player advances through 5 levels with increasing difficulty, unique and scaling enemies on each level, and a boss fight at the end in a quest to rescue Bevo, the UT longhorn. The player collects coins along the way which they can use for a variety of different upgrade options in preperation for the boss fight.
+This game was created for ECE 319k at UT Austin. This repository contains all of the software that runs on the TM4C: a combination of 32-bit ARM assembly, C, and C++.
+
 ### /Lab10_C++
-Contains main file and other files closely related to this project specifically. All game engine objects & logic are defined directly in the main.cpp file, this was done for speed, rapid prototyping & changing, and experimentation, and to keep everything in-lined. I will break them into separate files should I re-use them.  
+Contains main file and other files closely related to this project specifically. All game engine objects & logic are defined directly in the main.cpp file. This would have to change in a larger system, but for now it means you can read all of the game logic in one place.
 ### /fcpcb
 Contains all the drivers I wrote for the PCB I designed for this project. The PCB is designed to connect to a TM4C123G Launchpad via TI's booster pack connectors and contains a 128x160 TFT LCD display, Joystick, 4 more buttons, 6 LEDs, a 6-bit DAC with a headphone jack and speaker, a slidepot, & a serial port. Note that tm4c123gh6pm.h and ST7735.h & .cpp were NOT written by me, the former provided by Texas Instruments and the latter originally by the LCD manufacturer, modified by my professors as specified in the file, and tweaked by me slightly. Used with permission.
 ### /flib
