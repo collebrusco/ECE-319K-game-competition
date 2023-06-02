@@ -1,5 +1,7 @@
 # ECE-319K-game-competition
 ![Game PCB](/PCB.PNG)    
+## [Youtube demo](https://youtu.be/LUv89gF3i-0)
+
 2nd place! 'Save Bevo' is a handheld game built with a custom PCB & TM4C microcontroller. The system includes an LCD, DAC, joystick, slide-pot, buttons, & LEDs. The game is a simple overhead 'bullet hell' style game with 5 levels, various enemy types and a currency and upgrade system.  
 
 This game was created for ECE 319k at UT Austin. This repository contains all of the software that runs on the TM4C: a combination of 32-bit ARM assembly, C, and C++.
